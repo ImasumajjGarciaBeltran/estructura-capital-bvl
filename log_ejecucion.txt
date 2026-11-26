@@ -1,2 +1,286 @@
 # Log de ejecución · Imasumajj García Beltrán · 2024200500F
 2026-11-25 · Fase 1: estructura del proyecto creada
+2026-11-25 23:56:15 · 01_extraccion_api · Inicio · yfinance 0.2.66 · ventana 2011-01-01 a 2025-12-31 · 20 tickers + PEN=X
+2026-11-25 23:56:17 · 01_extraccion_api · Yahoo ALICORC1.LM (Alicorp S.A.A.) · OK · 3761 filas · 2011-01-03 a 2025-12-31
+2026-11-25 23:56:18 · 01_extraccion_api · Yahoo BACKUSI1.LM (Unión de Cervecerías Peruanas Backus y Johnston S.A.A.) · OK · 3763 filas · 2011-01-03 a 2025-12-31
+2026-11-25 23:56:20 · 01_extraccion_api · Yahoo CPACASC1.LM (Cementos Pacasmayo S.A.A.) · OK · 3762 filas · 2011-01-03 a 2025-12-31
+2026-11-25 23:56:22 · 01_extraccion_api · Yahoo UNACEMC1.LM (UNACEM Corp S.A.A.) · OK · 3763 filas · 2011-01-03 a 2025-12-31
+2026-11-25 23:56:24 · 01_extraccion_api · Yahoo FERREYC1.LM (Ferreycorp S.A.A.) · OK · 3761 filas · 2011-01-03 a 2025-12-31
+2026-11-25 23:56:26 · 01_extraccion_api · Yahoo CORAREI1.LM (Corporación Aceros Arequipa S.A.) · OK · 3763 filas · 2011-01-03 a 2025-12-31
+2026-11-25 23:56:27 · 01_extraccion_api · Yahoo SIDERC1.LM (Empresa Siderúrgica del Perú S.A.A.) · OK · 3764 filas · 2011-01-03 a 2025-12-31
+2026-11-25 23:56:29 · 01_extraccion_api · Yahoo ENGIEC1.LM (Engie Energía Perú S.A.A.) · OK · 3762 filas · 2011-01-03 a 2025-12-31
+2026-11-25 23:56:31 · 01_extraccion_api · Yahoo LUSURC1.LM (Luz del Sur S.A.A.) · OK · 3765 filas · 2011-01-03 a 2025-12-31
+2026-11-25 23:56:33 · 01_extraccion_api · Yahoo CVERDEC1.LM (Sociedad Minera Cerro Verde S.A.A.) · OK · 3760 filas · 2011-01-03 a 2025-12-31
+2026-11-25 23:56:34 · 01_extraccion_api · Yahoo BUENAVC1.LM (Compañía de Minas Buenaventura S.A.A.) · OK · 3769 filas · 2011-01-03 a 2025-12-31
+2026-11-25 23:56:36 · 01_extraccion_api · Yahoo MINSURI1.LM (Minsur S.A.) · OK · 3762 filas · 2011-01-03 a 2025-12-31
+2026-11-25 23:56:38 · 01_extraccion_api · Yahoo VOLCABC1.LM (Volcan Compañía Minera S.A.A.) · OK · 3760 filas · 2011-01-03 a 2025-12-31
+2026-11-25 23:56:40 · 01_extraccion_api · Yahoo NEXAPEC1.LM (Nexa Resources Perú S.A.A.) · OK · 3763 filas · 2011-01-03 a 2025-12-31
+2026-11-25 23:56:42 · 01_extraccion_api · Yahoo ATACOBC1.LM (Nexa Resources Atacocha S.A.A.) · OK · 3769 filas · 2011-01-03 a 2025-12-31
+2026-11-25 23:56:43 · 01_extraccion_api · Yahoo MOROCOI1.LM (Compañía Minera San Ignacio de Morococha S.A.A.) · OK · 3769 filas · 2011-01-03 a 2025-12-31
+2026-11-25 23:56:45 · 01_extraccion_api · Yahoo AUSTRAC1.LM (Austral Group S.A.A.) · OK · 3768 filas · 2011-01-03 a 2025-12-31
+2026-11-25 23:56:47 · 01_extraccion_api · Yahoo EXALMC1.LM (Pesquera Exalmar S.A.A.) · OK · 3405 filas · 2012-06-15 a 2025-12-31
+2026-11-25 23:56:49 · 01_extraccion_api · Yahoo CREDITC1.LM (Creditex S.A.A.) · OK · 3762 filas · 2011-01-03 a 2025-12-31
+2026-11-25 23:56:51 · 01_extraccion_api · Yahoo INRETC1.LM (InRetail Perú Corp.) · OK · 3317 filas · 2012-10-04 a 2025-12-31
+2026-11-25 23:56:52 · 01_extraccion_api · Yahoo total · 74468 filas · 20 tickers · datos_crudos/datos_crudos_2024200500F_yahoo.csv
+2026-11-25 23:56:52 · 01_extraccion_api · Yahoo PEN=X · OK · 3904 filas · 2011-01-03 a 2025-12-31
+2026-11-25 23:56:52 · 01_extraccion_api · Fin de 01_extraccion_api.py
+2026-11-25 23:57:47 · 02_scraping_web · Inicio · ventana 2011-01-01 a 2025-12-31 · User-Agent «Investigacion-academica-UNCP/2024200500F»
+2026-11-25 23:57:49 · 02_scraping_web · robots.txt https://www.smv.gob.pe · HTTP 200 · sin archivo robots.txt (no hay rutas prohibidas declaradas)
+2026-11-25 23:58:11 · 02_scraping_web · SMV obtener_BalanceGeneral 2011-T1 · HTTP 200 · 18886 filas en la respuesta · 1630 filas guardadas · 163 emisoras · 7,804,804 bytes · sha256 69254fb412525479bac56708ccfc0e5a2efcf78036b67051819d2223842ed5b9
+2026-11-25 23:58:31 · 02_scraping_web · SMV obtener_BalanceGeneral 2011-T2 · HTTP 200 · 19088 filas en la respuesta · 1640 filas guardadas · 164 emisoras · 7,888,145 bytes · sha256 f213a61d04af50610743f1335d4f63463df8e0288a0a23bcc6a7a31e56985c31
+2026-11-25 23:58:52 · 02_scraping_web · SMV obtener_BalanceGeneral 2011-T3 · HTTP 200 · 19336 filas en la respuesta · 1650 filas guardadas · 165 emisoras · 7,992,350 bytes · sha256 9cd9d489b374d3c933fd9db1c129399891505ac2e5fa86803cdf30e3a4bcbe64
+2026-11-25 23:59:13 · 02_scraping_web · SMV obtener_BalanceGeneral 2011-T4 · HTTP 200 · 19581 filas en la respuesta · 1680 filas guardadas · 168 emisoras · 8,093,636 bytes · sha256 4f58d18120e090e0d73c612e17e9d0fd54b6d8216dfd208689fe9cf7b152bf05
+2026-11-25 23:59:35 · 02_scraping_web · SMV obtener_BalanceGeneral 2012-T1 · HTTP 200 · 19450 filas en la respuesta · 1650 filas guardadas · 165 emisoras · 8,040,867 bytes · sha256 e54838a501a261e708740b4e3235b6018d6b6bd7919f0943f672c863fdffe9a8
+2026-11-25 23:59:57 · 02_scraping_web · SMV obtener_BalanceGeneral 2012-T2 · HTTP 200 · 19672 filas en la respuesta · 1660 filas guardadas · 166 emisoras · 8,140,089 bytes · sha256 53f64481ae2942cc6675903b55f561200a497c6f3597ff0c78d5cc9de01705b0
+2026-11-26 00:00:19 · 02_scraping_web · SMV obtener_BalanceGeneral 2012-T3 · HTTP 200 · 19912 filas en la respuesta · 1700 filas guardadas · 170 emisoras · 8,234,641 bytes · sha256 51c4427aa496a81c76026cb68116ba126d551b3ea1f47d1a11a4359727b77bd0
+2026-11-26 00:00:42 · 02_scraping_web · SMV obtener_BalanceGeneral 2012-T4 · HTTP 200 · 20034 filas en la respuesta · 1680 filas guardadas · 168 emisoras · 8,285,452 bytes · sha256 43eccbd855eeeeddfd35491c2ff9e1bd9337a414560f49be354a6379ddceb3c6
+2026-11-26 00:01:02 · 02_scraping_web · SMV obtener_BalanceGeneral 2013-T1 · HTTP 200 · 17249 filas en la respuesta · 1690 filas guardadas · 169 emisoras · 7,174,354 bytes · sha256 fa3bc0e97f536970eeb15be1ca23559ba57fcf6aa6caa6754c9376991857f036
+2026-11-26 00:01:25 · 02_scraping_web · SMV obtener_BalanceGeneral 2013-T2 · HTTP 200 · 20450 filas en la respuesta · 1650 filas guardadas · 165 emisoras · 8,471,447 bytes · sha256 f4683b364898520673045592f9e716be893ac554a2cecc1987e236032cffe360
+2026-11-26 00:01:48 · 02_scraping_web · SMV obtener_BalanceGeneral 2013-T3 · HTTP 200 · 20482 filas en la respuesta · 1620 filas guardadas · 162 emisoras · 8,491,459 bytes · sha256 817ffcdb4434aa762734dce82e4d97ec466f6d368f68e2c809f93bddf5c073d9
+2026-11-26 00:02:11 · 02_scraping_web · SMV obtener_BalanceGeneral 2013-T4 · HTTP 200 · 20557 filas en la respuesta · 1610 filas guardadas · 161 emisoras · 8,523,786 bytes · sha256 eba814b594c7e9c32412ac21544de76f02e3383b61fb94c5a4d18b820f2892b1
+2026-11-26 00:02:35 · 02_scraping_web · SMV obtener_BalanceGeneral 2014-T1 · HTTP 200 · 20468 filas en la respuesta · 1600 filas guardadas · 160 emisoras · 8,480,344 bytes · sha256 8f78a40908af47ed746618aa95c88f0de666c408c09de3d2eb517db018e4d177
+2026-11-26 00:02:59 · 02_scraping_web · SMV obtener_BalanceGeneral 2014-T2 · HTTP 200 · 20664 filas en la respuesta · 1580 filas guardadas · 158 emisoras · 8,572,080 bytes · sha256 39ef59242009b97fa0188a88022f2874f5b5c551b56a85e79a112fc8af507000
+2026-11-26 00:03:23 · 02_scraping_web · SMV obtener_BalanceGeneral 2014-T3 · HTTP 200 · 20466 filas en la respuesta · 1550 filas guardadas · 155 emisoras · 8,492,785 bytes · sha256 ab4cd7283bf9ed224c827b2f63514059a576a8cb07d37f3e0ae1917bfc090ce2
+2026-11-26 00:03:47 · 02_scraping_web · SMV obtener_BalanceGeneral 2014-T4 · HTTP 200 · 20628 filas en la respuesta · 1580 filas guardadas · 158 emisoras · 8,560,341 bytes · sha256 d2620c6a6d7ae972596447b3b768ffb2f7b5236e0134c8132774f1e234279cdf
+2026-11-26 00:04:09 · 02_scraping_web · SMV obtener_BalanceGeneral 2015-T1 · HTTP 200 · 20717 filas en la respuesta · 1570 filas guardadas · 157 emisoras · 8,605,901 bytes · sha256 c78b05248ec1ffc44b85df546f74095d10996f6e4f766aa3e10a7ac79144616c
+2026-11-26 00:04:31 · 02_scraping_web · SMV obtener_BalanceGeneral 2015-T2 · HTTP 200 · 20677 filas en la respuesta · 1540 filas guardadas · 154 emisoras · 8,578,413 bytes · sha256 60c91c98b95658079ca012763ee1313ba3147618f2600f01f1e52d6742273cc3
+2026-11-26 00:04:53 · 02_scraping_web · SMV obtener_BalanceGeneral 2015-T3 · HTTP 200 · 20875 filas en la respuesta · 1550 filas guardadas · 155 emisoras · 8,665,651 bytes · sha256 d6cdf6ba61fed9711b9971c56a6e3d2015ad668015d127ab87238f99604e84a2
+2026-11-26 00:05:15 · 02_scraping_web · SMV obtener_BalanceGeneral 2015-T4 · HTTP 200 · 21448 filas en la respuesta · 1590 filas guardadas · 159 emisoras · 8,907,368 bytes · sha256 50d0a625b830dc488d783eb3694cebae0427f2e53d350003f1519a2f0a46b06a
+2026-11-26 00:05:37 · 02_scraping_web · SMV obtener_BalanceGeneral 2016-T1 · HTTP 200 · 21267 filas en la respuesta · 1590 filas guardadas · 159 emisoras · 8,836,274 bytes · sha256 6fcb90297ad299cb993cd9ccdce835ca2f0b4d0f953b4533d885138544aaaf98
+2026-11-26 00:06:00 · 02_scraping_web · SMV obtener_BalanceGeneral 2016-T2 · HTTP 200 · 21088 filas en la respuesta · 1550 filas guardadas · 155 emisoras · 8,757,971 bytes · sha256 e3022e27addd5405300e5867b649286daa69d83b77468274b7e73b3c186fee9e
+2026-11-26 00:06:22 · 02_scraping_web · SMV obtener_BalanceGeneral 2016-T3 · HTTP 200 · 21060 filas en la respuesta · 1540 filas guardadas · 154 emisoras · 8,744,053 bytes · sha256 51f8bf6301e284991e133a971f5cfb8c7b5fb1eec85fba1c2cdef9317e4944d9
+2026-11-26 00:06:44 · 02_scraping_web · SMV obtener_BalanceGeneral 2016-T4 · HTTP 200 · 20849 filas en la respuesta · 1540 filas guardadas · 154 emisoras · 8,650,597 bytes · sha256 03708543f16b65e8d8ab91ed600e5ca8589b7dc8b0ddd6a10b9abc18a01129e4
+2026-11-26 00:07:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2017-T1 · HTTP 200 · 21358 filas en la respuesta · 1510 filas guardadas · 151 emisoras · 8,843,052 bytes · sha256 d3afd5b0aebd2ffdec37a1b5f759b1b6875bdb5496a19dc472a169b470a85cff
+2026-11-26 00:07:29 · 02_scraping_web · SMV obtener_BalanceGeneral 2017-T2 · HTTP 200 · 21526 filas en la respuesta · 1510 filas guardadas · 151 emisoras · 8,902,777 bytes · sha256 1864ff3f7c6906f4fa13543a82f731df8c178aee138233ef48a9bcbaff8cf412
+2026-11-26 00:07:52 · 02_scraping_web · SMV obtener_BalanceGeneral 2017-T3 · HTTP 200 · 21725 filas en la respuesta · 1520 filas guardadas · 152 emisoras · 8,996,640 bytes · sha256 d5bcae839b3c03d2cc5bb2e8e2eb529c7607252a9b9c32bb17478fcdb78e0519
+2026-11-26 00:08:15 · 02_scraping_web · SMV obtener_BalanceGeneral 2017-T4 · HTTP 200 · 21881 filas en la respuesta · 1510 filas guardadas · 151 emisoras · 9,070,734 bytes · sha256 4077865fcac42ec8e3afec4ca6c043a2f428cc8b9ed47fd3029e2fc8311aaf66
+2026-11-26 00:08:38 · 02_scraping_web · SMV obtener_BalanceGeneral 2018-T1 · HTTP 200 · 21597 filas en la respuesta · 1490 filas guardadas · 149 emisoras · 8,959,879 bytes · sha256 6a269bc3288461c663fa4bed5837badd10afbca62daf9589143846c9c546e009
+2026-11-26 00:09:01 · 02_scraping_web · SMV obtener_BalanceGeneral 2018-T2 · HTTP 200 · 21735 filas en la respuesta · 1500 filas guardadas · 150 emisoras · 9,020,228 bytes · sha256 cb9c4b05bc993b463e32173e197d3ff2be38bbbb1e0c40df61407b6fce488d8b
+2026-11-26 00:09:23 · 02_scraping_web · SMV obtener_BalanceGeneral 2018-T3 · HTTP 200 · 21307 filas en la respuesta · 1460 filas guardadas · 146 emisoras · 8,842,617 bytes · sha256 747566901d56a3d96faf8a433100ca36a2dde186e18dc351a4d3fa63d8edc64e
+2026-11-26 00:09:45 · 02_scraping_web · SMV obtener_BalanceGeneral 2018-T4 · HTTP 200 · 21067 filas en la respuesta · 1440 filas guardadas · 144 emisoras · 8,746,791 bytes · sha256 8d622350efb10bba5be414bf47f6bf7d2aa1b0da0ea3da5b920de0ff91a152a4
+2026-11-26 00:10:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2019-T1 · HTTP 200 · 20639 filas en la respuesta · 1390 filas guardadas · 139 emisoras · 8,571,945 bytes · sha256 b758981ec92c40c34bb0e1960d38fd474a13c30b620875558733fbf81dce6183
+2026-11-26 00:10:28 · 02_scraping_web · SMV obtener_BalanceGeneral 2019-T2 · HTTP 200 · 20432 filas en la respuesta · 1360 filas guardadas · 136 emisoras · 8,489,460 bytes · sha256 f79d63133053206d73cfcbe2bd54899000f67be8be81499611583fd13f5633a3
+2026-11-26 00:10:50 · 02_scraping_web · SMV obtener_BalanceGeneral 2019-T3 · HTTP 200 · 20178 filas en la respuesta · 1340 filas guardadas · 134 emisoras · 8,384,997 bytes · sha256 695581892d220554a6385be369a03bbdd3af096df563108c5477d10ad4a4a333
+2026-11-26 00:11:11 · 02_scraping_web · SMV obtener_BalanceGeneral 2019-T4 · HTTP 200 · 19971 filas en la respuesta · 1310 filas guardadas · 131 emisoras · 8,305,736 bytes · sha256 5a9f7c6e29668d85d6fb63208999371c69f81a1c71847ceb93526643451ae11a
+2026-11-26 00:11:32 · 02_scraping_web · SMV obtener_BalanceGeneral 2020-T1 · HTTP 200 · 19971 filas en la respuesta · 1310 filas guardadas · 131 emisoras · 8,306,408 bytes · sha256 e7acc0f84e933e8ffe1a15ec25041a6391d12028ef8aadc0e041687c2a781a5b
+2026-11-26 00:11:53 · 02_scraping_web · SMV obtener_BalanceGeneral 2020-T2 · HTTP 200 · 19993 filas en la respuesta · 1300 filas guardadas · 130 emisoras · 8,315,452 bytes · sha256 f6bcf271b49da110ab0227cb45359d0749b1acea3b269de664b4d8ad0d014f83
+2026-11-26 00:12:14 · 02_scraping_web · SMV obtener_BalanceGeneral 2020-T3 · HTTP 200 · 20228 filas en la respuesta · 1300 filas guardadas · 130 emisoras · 8,414,806 bytes · sha256 eb711eeb623ab5b6c60d0db68d0f9633f97bce78b1a1b8ca12c16217ce482563
+2026-11-26 00:12:35 · 02_scraping_web · SMV obtener_BalanceGeneral 2020-T4 · HTTP 200 · 20155 filas en la respuesta · 1300 filas guardadas · 130 emisoras · 8,384,922 bytes · sha256 7dd946775c7ba771d9e31058d982863820b3ecff5c29df862aa2daa2096d2b35
+2026-11-26 00:12:56 · 02_scraping_web · SMV obtener_BalanceGeneral 2021-T1 · HTTP 200 · 19743 filas en la respuesta · 1270 filas guardadas · 127 emisoras · 8,219,843 bytes · sha256 a0a6ad9920a687df972ac9db8fbe614e34cba593e3d6a2c2fefd83e2d6083236
+2026-11-26 00:13:17 · 02_scraping_web · SMV obtener_BalanceGeneral 2021-T2 · HTTP 200 · 19688 filas en la respuesta · 1250 filas guardadas · 125 emisoras · 8,196,807 bytes · sha256 00d624665805e43f0af818e93a9e44392340b21609b80900afdeafab35672e94
+2026-11-26 00:13:38 · 02_scraping_web · SMV obtener_BalanceGeneral 2021-T3 · HTTP 200 · 19757 filas en la respuesta · 1240 filas guardadas · 124 emisoras · 8,227,714 bytes · sha256 e9b92445916d073637b6b3d43b18d21e7921f7205d23688bf801934f5202e4df
+2026-11-26 00:13:59 · 02_scraping_web · SMV obtener_BalanceGeneral 2021-T4 · HTTP 200 · 19757 filas en la respuesta · 1250 filas guardadas · 125 emisoras · 8,225,885 bytes · sha256 05e1633293dc6a385a597bda7d60bb9ab22a180f8bb1edbca07dea299b5517fe
+2026-11-26 00:14:20 · 02_scraping_web · SMV obtener_BalanceGeneral 2022-T1 · HTTP 200 · 19467 filas en la respuesta · 1220 filas guardadas · 122 emisoras · 8,109,163 bytes · sha256 7ad1bb2b72d7d4e4f4b0d835d11e489c01450717f9bd441581516579eec6d0e7
+2026-11-26 00:14:40 · 02_scraping_web · SMV obtener_BalanceGeneral 2022-T2 · HTTP 200 · 19523 filas en la respuesta · 1220 filas guardadas · 122 emisoras · 8,150,546 bytes · sha256 5c9d6ed8bdfe840b920c5d2b11d941d23ec66ee276bf7d4ceebd92625c968001
+2026-11-26 00:15:01 · 02_scraping_web · SMV obtener_BalanceGeneral 2022-T3 · HTTP 200 · 19454 filas en la respuesta · 1220 filas guardadas · 122 emisoras · 8,121,334 bytes · sha256 3d01a4aefb1500d64f12fa16c89628c53d1290aa7bcb60eca853b5b51f38bf5a
+2026-11-26 00:15:22 · 02_scraping_web · SMV obtener_BalanceGeneral 2022-T4 · HTTP 200 · 19454 filas en la respuesta · 1230 filas guardadas · 123 emisoras · 8,116,863 bytes · sha256 58f45f6e51004fcaa34c04be8a89fd7a1e874c3ad2838c89badb5ef59885dc18
+2026-11-26 00:15:42 · 02_scraping_web · SMV obtener_BalanceGeneral 2023-T1 · HTTP 200 · 19276 filas en la respuesta · 1210 filas guardadas · 121 emisoras · 8,041,801 bytes · sha256 6a88e1933cb8e352e92441204eb06ef8b9d5c43c4d2c850d649723ce37d9956f
+2026-11-26 00:16:03 · 02_scraping_web · SMV obtener_BalanceGeneral 2023-T2 · HTTP 200 · 19178 filas en la respuesta · 1200 filas guardadas · 120 emisoras · 7,999,484 bytes · sha256 2ceb4a8712f856bb405b408c0c4129a3839e2e33dcb5c5f7501a71b8eb652040
+2026-11-26 00:16:23 · 02_scraping_web · SMV obtener_BalanceGeneral 2023-T3 · HTTP 200 · 19145 filas en la respuesta · 1190 filas guardadas · 119 emisoras · 7,991,944 bytes · sha256 bf8f86749b8640e4dc0b46a66e16e33568d14d88f8cd677f03705e63b58e8255
+2026-11-26 00:16:43 · 02_scraping_web · SMV obtener_BalanceGeneral 2023-T4 · HTTP 200 · 19001 filas en la respuesta · 1180 filas guardadas · 118 emisoras · 7,953,065 bytes · sha256 f4c55c151197b51315f70b48d9151c8c25a79f6022005c71b472ae1f9aa83058
+2026-11-26 00:17:03 · 02_scraping_web · SMV obtener_BalanceGeneral 2024-T1 · HTTP 200 · 18983 filas en la respuesta · 1180 filas guardadas · 118 emisoras · 7,943,632 bytes · sha256 056200bafc7b55314dd20e8978569f60be73060e3f5616346ba987a635ee9f23
+2026-11-26 00:17:24 · 02_scraping_web · SMV obtener_BalanceGeneral 2024-T2 · HTTP 200 · 18790 filas en la respuesta · 1160 filas guardadas · 116 emisoras · 7,865,199 bytes · sha256 c15952e85f612a456e6a7de9bacb0d95f439a49873026f2bc7ea64dcaa3c2e50
+2026-11-26 00:17:44 · 02_scraping_web · SMV obtener_BalanceGeneral 2024-T3 · HTTP 200 · 18638 filas en la respuesta · 1160 filas guardadas · 116 emisoras · 7,801,172 bytes · sha256 c953730d4f2ab7753b774700af2a74667ba91dbc26fbd0be2a7cb5aa51517284
+2026-11-26 00:18:04 · 02_scraping_web · SMV obtener_BalanceGeneral 2024-T4 · HTTP 200 · 18707 filas en la respuesta · 1170 filas guardadas · 117 emisoras · 7,894,737 bytes · sha256 b221982b3e13d9c51e328692fb45e44297ec1af0a5cbe9f0f20f4d97f18ee31f
+2026-11-26 00:18:24 · 02_scraping_web · SMV obtener_BalanceGeneral 2025-T1 · HTTP 200 · 18706 filas en la respuesta · 1170 filas guardadas · 117 emisoras · 7,895,488 bytes · sha256 2c9f57ecadf28b9087623ef6c84e8c6579a8327d294d9350487a85f309e86355
+2026-11-26 00:18:44 · 02_scraping_web · SMV obtener_BalanceGeneral 2025-T2 · HTTP 200 · 18726 filas en la respuesta · 1170 filas guardadas · 117 emisoras · 7,906,641 bytes · sha256 57230900fe1849d6c4603f13ddedc10c495e5a4b2a57b11ea23d450a214c33fa
+2026-11-26 00:19:04 · 02_scraping_web · SMV obtener_BalanceGeneral 2025-T3 · HTTP 200 · 18809 filas en la respuesta · 1160 filas guardadas · 116 emisoras · 7,943,993 bytes · sha256 8c71a55acd6ff5a77929fc196530e4d5f1cbed8119c4f44a04c9206eb35f557a
+2026-11-26 00:19:24 · 02_scraping_web · SMV obtener_BalanceGeneral 2025-T4 · HTTP 200 · 18712 filas en la respuesta · 1170 filas guardadas · 117 emisoras · 7,906,327 bytes · sha256 00fa877af705755a36ab5fb30efdbf81f6e8f435b1c3e05806a1a0a5c0c85850
+2026-11-26 00:19:37 · 02_scraping_web · SMV obtener_GanciaPerdida 2011-T1 · HTTP 200 · 10382 filas en la respuesta · 978 filas guardadas · 163 emisoras · 4,640,588 bytes · sha256 742a0aa172f235df73daa3fed635b10be589f818dd5724759266c4ed5828fc13
+2026-11-26 00:19:51 · 02_scraping_web · SMV obtener_GanciaPerdida 2011-T2 · HTTP 200 · 10478 filas en la respuesta · 984 filas guardadas · 164 emisoras · 4,687,362 bytes · sha256 bdb188fe022a36752674e3faa39d27ec7cf4f1a63a0a1e268bebeecfe5fa3bb9
+2026-11-26 00:20:05 · 02_scraping_web · SMV obtener_GanciaPerdida 2011-T3 · HTTP 200 · 10607 filas en la respuesta · 990 filas guardadas · 165 emisoras · 4,747,878 bytes · sha256 b6eeef4398e41f4f6641bd52af3de6d3460beaf19550f1c1b3dff7f5af5d47a5
+2026-11-26 00:20:19 · 02_scraping_web · SMV obtener_GanciaPerdida 2011-T4 · HTTP 200 · 10739 filas en la respuesta · 1008 filas guardadas · 168 emisoras · 4,808,712 bytes · sha256 cc0174a96ea39feaffb9d3cf2ee6fc6d6e3ca2bdf4be0e90329c81c58275ee71
+2026-11-26 00:20:33 · 02_scraping_web · SMV obtener_GanciaPerdida 2012-T1 · HTTP 200 · 10676 filas en la respuesta · 990 filas guardadas · 165 emisoras · 4,771,379 bytes · sha256 deb655259d8953e7836042c071d8c34981aeed950d7d039e8e5e564bf775910f
+2026-11-26 00:20:48 · 02_scraping_web · SMV obtener_GanciaPerdida 2012-T2 · HTTP 200 · 10817 filas en la respuesta · 996 filas guardadas · 166 emisoras · 4,841,213 bytes · sha256 ddf095fc49e2d005323993f0c51f3a0b76083f4aebaa6932d8af8c69acf09938
+2026-11-26 00:21:03 · 02_scraping_web · SMV obtener_GanciaPerdida 2012-T3 · HTTP 200 · 10949 filas en la respuesta · 1020 filas guardadas · 170 emisoras · 4,900,401 bytes · sha256 89e8b30f9f90641fb3a46a0e48100b780fb4b7391911154fb1e097f4c7dae9fb
+2026-11-26 00:21:19 · 02_scraping_web · SMV obtener_GanciaPerdida 2012-T4 · HTTP 200 · 11021 filas en la respuesta · 1008 filas guardadas · 168 emisoras · 4,933,861 bytes · sha256 183e9301b857a874b6342f01bb67acffa77adb44f84abed1c9f1aa8fdc4e6055
+2026-11-26 00:21:32 · 02_scraping_web · SMV obtener_GanciaPerdida 2013-T1 · HTTP 200 · 8753 filas en la respuesta · 1014 filas guardadas · 169 emisoras · 3,961,772 bytes · sha256 12f059ff342cc55071064e54cc6d6871866c66117442856460a4eadd32027a49
+2026-11-26 00:21:48 · 02_scraping_web · SMV obtener_GanciaPerdida 2013-T2 · HTTP 200 · 11383 filas en la respuesta · 990 filas guardadas · 165 emisoras · 5,109,696 bytes · sha256 2c57e424eae0ebbda80d3c9d4691a186ffec34a2ce0420b532e21b12147cb60f
+2026-11-26 00:22:04 · 02_scraping_web · SMV obtener_GanciaPerdida 2013-T3 · HTTP 200 · 11402 filas en la respuesta · 972 filas guardadas · 162 emisoras · 5,122,859 bytes · sha256 dd4a101769ba31a4cd1fa9af4903c6c4b968235bc3e2913224ced518d280db2e
+2026-11-26 00:22:19 · 02_scraping_web · SMV obtener_GanciaPerdida 2013-T4 · HTTP 200 · 11470 filas en la respuesta · 966 filas guardadas · 161 emisoras · 5,156,894 bytes · sha256 770a7e1d5f8312273700ab01784c0a242b7ce8e26c91f99bc16e225b6c539bce
+2026-11-26 00:22:36 · 02_scraping_web · SMV obtener_GanciaPerdida 2014-T1 · HTTP 200 · 11453 filas en la respuesta · 960 filas guardadas · 160 emisoras · 5,135,176 bytes · sha256 db1f256c93cc9c05ea8c39739776ec02c710b28786cf9021483367da29a71c66
+2026-11-26 00:22:53 · 02_scraping_web · SMV obtener_GanciaPerdida 2014-T2 · HTTP 200 · 11557 filas en la respuesta · 948 filas guardadas · 158 emisoras · 5,190,564 bytes · sha256 c94158ed75e16b6deaf0f6ffbd8616cde54260aa34d669f1cad9ec5571fe9929
+2026-11-26 00:23:09 · 02_scraping_web · SMV obtener_GanciaPerdida 2014-T3 · HTTP 200 · 11458 filas en la respuesta · 930 filas guardadas · 155 emisoras · 5,149,773 bytes · sha256 1dd90efa92862682d357f0f4824c6501414e4c44fc194c4cec5cc9ba8cc4c84e
+2026-11-26 00:23:26 · 02_scraping_web · SMV obtener_GanciaPerdida 2014-T4 · HTTP 200 · 11538 filas en la respuesta · 948 filas guardadas · 158 emisoras · 5,190,549 bytes · sha256 2e80f95f584c356623d6167e481d513eb51f4a51c72c3028b3e1e25c6cbd504e
+2026-11-26 00:23:40 · 02_scraping_web · SMV obtener_GanciaPerdida 2015-T1 · HTTP 200 · 11555 filas en la respuesta · 942 filas guardadas · 157 emisoras · 5,192,585 bytes · sha256 23f12d2df5248372d8d07316cae2d94d91ec28eb6a64e08f4c870a119e4971d9
+2026-11-26 00:23:55 · 02_scraping_web · SMV obtener_GanciaPerdida 2015-T2 · HTTP 200 · 11592 filas en la respuesta · 924 filas guardadas · 154 emisoras · 5,206,282 bytes · sha256 4ef3cbf5c1731b476b54b8017f06610f2eba2481c63fa7760380cbf1bbd278fe
+2026-11-26 00:24:09 · 02_scraping_web · SMV obtener_GanciaPerdida 2015-T3 · HTTP 200 · 11691 filas en la respuesta · 930 filas guardadas · 155 emisoras · 5,256,581 bytes · sha256 860c5279070ed7f132602ad38ca7cfa666d5ff9645849c86398729a8590626da
+2026-11-26 00:24:24 · 02_scraping_web · SMV obtener_GanciaPerdida 2015-T4 · HTTP 200 · 12009 filas en la respuesta · 954 filas guardadas · 159 emisoras · 5,405,085 bytes · sha256 0ee0768c11df3ec24a93c90999a2f365f5e88c7a4b17c622a035fc0ef626095e
+2026-11-26 00:24:39 · 02_scraping_web · SMV obtener_GanciaPerdida 2016-T1 · HTTP 200 · 11889 filas en la respuesta · 954 filas guardadas · 159 emisoras · 5,344,043 bytes · sha256 a0a46d207317adf5e38bb6a247f383d6d46d12da240b2a923751c136a3d09669
+2026-11-26 00:24:53 · 02_scraping_web · SMV obtener_GanciaPerdida 2016-T2 · HTTP 200 · 11784 filas en la respuesta · 930 filas guardadas · 155 emisoras · 5,296,825 bytes · sha256 eaa01ebdaea049a65dc3f12a659a9521d4c42e2dd538275b1a5a548d710ca617
+2026-11-26 00:25:08 · 02_scraping_web · SMV obtener_GanciaPerdida 2016-T3 · HTTP 200 · 11767 filas en la respuesta · 924 filas guardadas · 154 emisoras · 5,290,027 bytes · sha256 cdf4d057cbddd5fdbe2ce5da4cd96f7215fc1e77f7fdb754376debab59762925
+2026-11-26 00:25:23 · 02_scraping_web · SMV obtener_GanciaPerdida 2016-T4 · HTTP 200 · 11633 filas en la respuesta · 924 filas guardadas · 154 emisoras · 5,230,118 bytes · sha256 9eaf7f8978b53a662e9b86b02b5eb50117cac50c3615a516829d32a421ca3016
+2026-11-26 00:25:38 · 02_scraping_web · SMV obtener_GanciaPerdida 2017-T1 · HTTP 200 · 12409 filas en la respuesta · 906 filas guardadas · 151 emisoras · 5,603,016 bytes · sha256 3a2179d03a37eeb3106ef90d9eb76d0ca6165487ea4e7b84eebd994c434295b7
+2026-11-26 00:25:53 · 02_scraping_web · SMV obtener_GanciaPerdida 2017-T2 · HTTP 200 · 12502 filas en la respuesta · 906 filas guardadas · 151 emisoras · 5,643,462 bytes · sha256 43b8b8639c3f35d9f19a317c62b23b7e57cc7a41f5392f8b0597dbb6e31cab32
+2026-11-26 00:26:08 · 02_scraping_web · SMV obtener_GanciaPerdida 2017-T3 · HTTP 200 · 12584 filas en la respuesta · 912 filas guardadas · 152 emisoras · 5,690,938 bytes · sha256 cedc335cfc68dd4727b220a0d36bfeb732bdb7d514f327eb3b55cd8e843df234
+2026-11-26 00:26:24 · 02_scraping_web · SMV obtener_GanciaPerdida 2017-T4 · HTTP 200 · 12691 filas en la respuesta · 906 filas guardadas · 151 emisoras · 5,747,038 bytes · sha256 8b3666401a6bbe18c14f01144e3d99304bcea8fee4ed76a1b6509a429f598f4c
+2026-11-26 00:26:39 · 02_scraping_web · SMV obtener_GanciaPerdida 2018-T1 · HTTP 200 · 12514 filas en la respuesta · 894 filas guardadas · 149 emisoras · 5,662,616 bytes · sha256 355ec3803acc40925f9d96d6519579cb29ff4ac4243210b46384ba55bdd03bdb
+2026-11-26 00:26:54 · 02_scraping_web · SMV obtener_GanciaPerdida 2018-T2 · HTTP 200 · 12588 filas en la respuesta · 900 filas guardadas · 150 emisoras · 5,702,742 bytes · sha256 27fa0440b3bb7cacd9e475c99d480bf01cad4dbc0af1ba4a584e6411c10b371e
+2026-11-26 00:27:10 · 02_scraping_web · SMV obtener_GanciaPerdida 2018-T3 · HTTP 200 · 12334 filas en la respuesta · 876 filas guardadas · 146 emisoras · 5,589,334 bytes · sha256 67a7dc60cf568608f19b821b35497db30023e0067a46abcc4a4724fe36a3bd39
+2026-11-26 00:27:25 · 02_scraping_web · SMV obtener_GanciaPerdida 2018-T4 · HTTP 200 · 12208 filas en la respuesta · 864 filas guardadas · 144 emisoras · 5,536,268 bytes · sha256 862f9e7dd4ee1002b32f1b2c3b758d79ad9c2b806e5481152faa21f1981993f7
+2026-11-26 00:27:40 · 02_scraping_web · SMV obtener_GanciaPerdida 2019-T1 · HTTP 200 · 11998 filas en la respuesta · 834 filas guardadas · 139 emisoras · 5,432,394 bytes · sha256 2a622339e3d48b171323403839376fb17dff9f72a1f2b44c61d9fb295353bdff
+2026-11-26 00:27:55 · 02_scraping_web · SMV obtener_GanciaPerdida 2019-T2 · HTTP 200 · 11887 filas en la respuesta · 816 filas guardadas · 136 emisoras · 5,388,102 bytes · sha256 3ec9adb4ac6d2e06c2674f2e7c7a75aaa9d50f8debfc1ede92ba7be6fea57954
+2026-11-26 00:28:09 · 02_scraping_web · SMV obtener_GanciaPerdida 2019-T3 · HTTP 200 · 11727 filas en la respuesta · 804 filas guardadas · 134 emisoras · 5,317,482 bytes · sha256 0cacc304b0242683269f0280e433a1a855af45294a30cff1cc2c74b5d56b072d
+2026-11-26 00:28:24 · 02_scraping_web · SMV obtener_GanciaPerdida 2019-T4 · HTTP 200 · 11616 filas en la respuesta · 786 filas guardadas · 131 emisoras · 5,273,123 bytes · sha256 9945560631a056ae756d1078db635460a51e3ec0d7350da9a28e402297051587
+2026-11-26 00:28:38 · 02_scraping_web · SMV obtener_GanciaPerdida 2020-T1 · HTTP 200 · 11616 filas en la respuesta · 786 filas guardadas · 131 emisoras · 5,265,226 bytes · sha256 24133a69be1dfc4c6b06e588de129b614003f7aff546fa90ea9ad4adc69a24f6
+2026-11-26 00:28:52 · 02_scraping_web · SMV obtener_GanciaPerdida 2020-T2 · HTTP 200 · 11650 filas en la respuesta · 780 filas guardadas · 130 emisoras · 5,282,749 bytes · sha256 5f414a899bf16e3ac614eef961bf798099b1db44cb25b4ac77035ad49e5b35f5
+2026-11-26 00:29:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2020-T3 · HTTP 200 · 11825 filas en la respuesta · 780 filas guardadas · 130 emisoras · 5,363,364 bytes · sha256 4be0d8ed66a1486f966235a898c84ebdbeb6d11a4794bfc6dadb4be419bf312f
+2026-11-26 00:29:22 · 02_scraping_web · SMV obtener_GanciaPerdida 2020-T4 · HTTP 200 · 11794 filas en la respuesta · 780 filas guardadas · 130 emisoras · 5,353,536 bytes · sha256 51ca876d5bf9c78dd0c775620eeb796f134c9b7af150dcd5b9e4af64dd318034
+2026-11-26 00:29:36 · 02_scraping_web · SMV obtener_GanciaPerdida 2021-T1 · HTTP 200 · 11609 filas en la respuesta · 762 filas guardadas · 127 emisoras · 5,263,498 bytes · sha256 77b8e2b889d79eef695ae46bd46cbdfadfa0e1d761a02b2267bbfaf9ac597abe
+2026-11-26 00:29:50 · 02_scraping_web · SMV obtener_GanciaPerdida 2021-T2 · HTTP 200 · 11535 filas en la respuesta · 750 filas guardadas · 125 emisoras · 5,232,652 bytes · sha256 6eb5d6a0ca7bb81f27a520428c81ae407ecace0914eb36adf4c0d4c618342e69
+2026-11-26 00:30:05 · 02_scraping_web · SMV obtener_GanciaPerdida 2021-T3 · HTTP 200 · 11572 filas en la respuesta · 744 filas guardadas · 124 emisoras · 5,253,033 bytes · sha256 a2398bbfe492580459ab79af7e635407c8badf1c15a180208ff3a9c172c7fc4a
+2026-11-26 00:30:19 · 02_scraping_web · SMV obtener_GanciaPerdida 2021-T4 · HTTP 200 · 11572 filas en la respuesta · 750 filas guardadas · 125 emisoras · 5,255,740 bytes · sha256 ed290a54fd1a8ccb56d15c51a27dc7c704ed9b7dd7b574c48dc8c5e06d0603ba
+2026-11-26 00:30:33 · 02_scraping_web · SMV obtener_GanciaPerdida 2022-T1 · HTTP 200 · 11392 filas en la respuesta · 732 filas guardadas · 122 emisoras · 5,167,401 bytes · sha256 0e6baeb5565c9480448d81b10538231f621fcda8ddab791560bc1f3f98efd5ce
+2026-11-26 00:30:47 · 02_scraping_web · SMV obtener_GanciaPerdida 2022-T2 · HTTP 200 · 11447 filas en la respuesta · 732 filas guardadas · 122 emisoras · 5,205,775 bytes · sha256 e019fcb1a14caac56b84c8a1df06f198f04f640a3fc3cf0216ec62d710d27a5b
+2026-11-26 00:31:01 · 02_scraping_web · SMV obtener_GanciaPerdida 2022-T3 · HTTP 200 · 11410 filas en la respuesta · 732 filas guardadas · 122 emisoras · 5,191,211 bytes · sha256 ed164a31b8c12679c7efa12167ed0e76a02c418b23032feb5fef5f12c5d565c1
+2026-11-26 00:31:15 · 02_scraping_web · SMV obtener_GanciaPerdida 2022-T4 · HTTP 200 · 11410 filas en la respuesta · 738 filas guardadas · 123 emisoras · 5,191,338 bytes · sha256 702086f76a56a6d5572745454f85d6030cabd99f81d5d2562483a575b888af57
+2026-11-26 00:31:29 · 02_scraping_web · SMV obtener_GanciaPerdida 2023-T1 · HTTP 200 · 11336 filas en la respuesta · 726 filas guardadas · 121 emisoras · 5,148,524 bytes · sha256 e29bd06708c5acfb1b4c74501f69c9c291c55f6a222d3355826e4ccdb11751f7
+2026-11-26 00:31:43 · 02_scraping_web · SMV obtener_GanciaPerdida 2023-T2 · HTTP 200 · 11262 filas en la respuesta · 720 filas guardadas · 120 emisoras · 5,117,349 bytes · sha256 425f0a42f5bba77306b1b6b2dd84dae2454585a9934fbc7784106253c7b07314
+2026-11-26 00:31:57 · 02_scraping_web · SMV obtener_GanciaPerdida 2023-T3 · HTTP 200 · 11262 filas en la respuesta · 714 filas guardadas · 119 emisoras · 5,121,902 bytes · sha256 325a37a2835a53fc8a9392ca48812589d259e26b67402b1e6a7cdb28e40396e4
+2026-11-26 00:32:11 · 02_scraping_web · SMV obtener_GanciaPerdida 2023-T4 · HTTP 200 · 11152 filas en la respuesta · 708 filas guardadas · 118 emisoras · 5,087,519 bytes · sha256 0d2fc3cff7685bcb26aab39611ee426706a96c50e5e0e4fbfda95f493ff58803
+2026-11-26 00:32:25 · 02_scraping_web · SMV obtener_GanciaPerdida 2024-T1 · HTTP 200 · 11177 filas en la respuesta · 708 filas guardadas · 118 emisoras · 5,088,815 bytes · sha256 06fdfd0930a4a6ce61055fbdebb8c7540347ba2bb8c251920cb708b6775d7853
+2026-11-26 00:32:39 · 02_scraping_web · SMV obtener_GanciaPerdida 2024-T2 · HTTP 200 · 11029 filas en la respuesta · 696 filas guardadas · 116 emisoras · 5,026,374 bytes · sha256 7a370c6f70c78c24f5b275f1df4b71ebd648b345503a254bb4760d85a8c41364
+2026-11-26 00:32:53 · 02_scraping_web · SMV obtener_GanciaPerdida 2024-T3 · HTTP 200 · 10923 filas en la respuesta · 696 filas guardadas · 116 emisoras · 4,980,095 bytes · sha256 891ec5375506fa28d315204294cea0c5672ab4ea0665e4d77a28881e013b161e
+2026-11-26 00:33:06 · 02_scraping_web · SMV obtener_GanciaPerdida 2024-T4 · HTTP 200 · 10960 filas en la respuesta · 702 filas guardadas · 117 emisoras · 5,038,911 bytes · sha256 fb8980912593596fe2c1fe2947c98e8a5ec08614f637f8d4781396fb65f395de
+2026-11-26 00:33:20 · 02_scraping_web · SMV obtener_GanciaPerdida 2025-T1 · HTTP 200 · 10960 filas en la respuesta · 702 filas guardadas · 117 emisoras · 5,030,946 bytes · sha256 d1a4ba0ef05b336f8e49087a7cb01aa33d6e8ca48303c3131598773572c046c2
+2026-11-26 00:33:34 · 02_scraping_web · SMV obtener_GanciaPerdida 2025-T2 · HTTP 200 · 11014 filas en la respuesta · 702 filas guardadas · 117 emisoras · 5,060,301 bytes · sha256 fbc0e3e5d7200e9313e1d3e61b8639707e73f8f3d8aeca1f9ae1a73b92d455f2
+2026-11-26 00:33:48 · 02_scraping_web · SMV obtener_GanciaPerdida 2025-T3 · HTTP 200 · 11014 filas en la respuesta · 696 filas guardadas · 116 emisoras · 5,063,890 bytes · sha256 092146d2f56ec3f0c7eaf43439b3e950574b621e4afca9f8a18ec97accbe7dc4
+2026-11-26 00:34:01 · 02_scraping_web · SMV obtener_GanciaPerdida 2025-T4 · HTTP 200 · 10913 filas en la respuesta · 702 filas guardadas · 117 emisoras · 5,025,628 bytes · sha256 f03bd4eefcea3162c97c6947a7f3cc47be16fe3b50ae00b29c0eee575ff4dad1
+2026-11-26 00:34:07 · 02_scraping_web · SMV total · 136336 filas · 229 emisoras · 120 de 120 trimestres-operación
+2026-11-26 00:34:07 · 02_scraping_web · robots.txt https://estadisticas.bcrp.gob.pe · HTTP 577 · sin archivo robots.txt (no hay rutas prohibidas declaradas)
+2026-11-26 00:34:10 · 02_scraping_web · BCRP PN02507AQ · HTTP 200 · 65,353 bytes · https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/resultados/PN02507AQ/html
+2026-11-26 00:34:10 · 02_scraping_web · BCRP PN02507AQ · 187 filas leídas de la tabla HTML
+2026-11-26 00:34:13 · 02_scraping_web · BCRP PD04722MM · HTTP 200 · 88,555 bytes · https://estadisticas.bcrp.gob.pe/estadisticas/series/mensuales/resultados/PD04722MM/html
+2026-11-26 00:34:14 · 02_scraping_web · BCRP PD04722MM · 278 filas leídas de la tabla HTML
+2026-11-26 00:34:18 · 02_scraping_web · Archivo crudo único · 360,205 filas · fuentes: SMV, BCRP, Yahoo Finance
+2026-11-26 00:34:18 · 02_scraping_web · Fin de 02_scraping_web.py
+2026-11-26 00:51:06 · 02_scraping_web · Inicio · ventana 2011-01-01 a 2025-12-31 · User-Agent «Investigacion-academica-UNCP/2024200500F»
+2026-11-26 00:51:07 · 02_scraping_web · robots.txt https://www.smv.gob.pe · HTTP 200 · sin archivo robots.txt (no hay rutas prohibidas declaradas)
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2011-T1 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2011-T2 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2011-T3 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2011-T4 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2012-T1 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2012-T2 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2012-T3 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2012-T4 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2013-T1 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2013-T2 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2013-T3 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2013-T4 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2014-T1 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2014-T2 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2014-T3 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2014-T4 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2015-T1 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2015-T2 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2015-T3 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2015-T4 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2016-T1 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2016-T2 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2016-T3 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2016-T4 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2017-T1 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2017-T2 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2017-T3 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2017-T4 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2018-T1 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2018-T2 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2018-T3 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2018-T4 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2019-T1 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2019-T2 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2019-T3 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2019-T4 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2020-T1 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2020-T2 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2020-T3 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2020-T4 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2021-T1 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2021-T2 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2021-T3 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2021-T4 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2022-T1 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2022-T2 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2022-T3 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2022-T4 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2023-T1 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2023-T2 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2023-T3 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2023-T4 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2024-T1 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2024-T2 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2024-T3 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2024-T4 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2025-T1 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2025-T2 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2025-T3 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_BalanceGeneral 2025-T4 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2011-T1 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2011-T2 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2011-T3 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2011-T4 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2012-T1 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2012-T2 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2012-T3 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2012-T4 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2013-T1 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2013-T2 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2013-T3 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2013-T4 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2014-T1 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2014-T2 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2014-T3 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2014-T4 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2015-T1 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2015-T2 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2015-T3 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2015-T4 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2016-T1 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2016-T2 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2016-T3 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2016-T4 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2017-T1 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2017-T2 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2017-T3 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2017-T4 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2018-T1 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2018-T2 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2018-T3 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2018-T4 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2019-T1 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2019-T2 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2019-T3 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2019-T4 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2020-T1 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2020-T2 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2020-T3 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2020-T4 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2021-T1 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2021-T2 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2021-T3 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2021-T4 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2022-T1 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2022-T2 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2022-T3 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2022-T4 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2023-T1 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2023-T2 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2023-T3 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2023-T4 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2024-T1 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2024-T2 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2024-T3 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2024-T4 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2025-T1 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2025-T2 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2025-T3 · ya existe, se conserva
+2026-11-26 00:51:07 · 02_scraping_web · SMV obtener_GanciaPerdida 2025-T4 · ya existe, se conserva
+2026-11-26 00:51:13 · 02_scraping_web · SMV total · 136336 filas · 229 emisoras · 120 de 120 trimestres-operación
+2026-11-26 00:51:13 · 02_scraping_web · robots.txt https://estadisticas.bcrp.gob.pe · HTTP 577 · sin archivo robots.txt (no hay rutas prohibidas declaradas)
+2026-11-26 00:51:16 · 02_scraping_web · BCRP PN02507AQ · HTTP 200 · 65,353 bytes · https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/resultados/PN02507AQ/html
+2026-11-26 00:51:16 · 02_scraping_web · BCRP PN02507AQ · 187 filas leídas de la tabla HTML
+2026-11-26 00:51:19 · 02_scraping_web · BCRP PD04722MM · HTTP 200 · 88,554 bytes · https://estadisticas.bcrp.gob.pe/estadisticas/series/mensuales/resultados/PD04722MM/html
+2026-11-26 00:51:19 · 02_scraping_web · BCRP PD04722MM · 278 filas leídas de la tabla HTML
+2026-11-26 00:51:24 · 02_scraping_web · Archivo crudo único · 360,205 filas · fuentes: SMV, BCRP, Yahoo Finance
+2026-11-26 00:51:24 · 02_scraping_web · Fin de 02_scraping_web.py
