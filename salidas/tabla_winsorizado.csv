@@ -1,0 +1,10 @@
+variable,percentil_1,percentil_99,recortados_abajo,recortados_arriba,observaciones
+apalancamiento,0.000808,1.04287,79,79,7889
+deuda_financiera,0.0,0.685619,0,79,7889
+tamano,8.495363,17.024432,79,79,7889
+tangibilidad,0.0,0.95231,0,79,7889
+rentabilidad,-0.334146,0.370976,79,79,7869
+crecimiento_ventas,-1.0,3.607946,15,72,7125
+liquidez_corriente,0.118137,59.147,79,79,7882
+riesgo_negocio,0.001392,0.222195,69,69,6881
+volatilidad,0.085833,1.342604,11,11,1083

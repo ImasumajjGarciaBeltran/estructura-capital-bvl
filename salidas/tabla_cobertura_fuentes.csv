@@ -1,0 +1,16 @@
+fuente,variable,observaciones,porcentaje
+SMV,apalancamiento,7889,100.0
+SMV,deuda_financiera,7889,100.0
+SMV,tamano,7889,100.0
+SMV,tangibilidad,7889,100.0
+SMV,rentabilidad,7869,99.7
+SMV,crecimiento_ventas,7125,90.3
+SMV,tasa_impositiva,6289,79.7
+SMV,liquidez_corriente,7882,99.9
+SMV,riesgo_negocio,6881,87.2
+Yahoo Finance,volatilidad,1083,13.7
+Yahoo Finance,frecuencia_negociacion,1188,15.1
+BCRP,pbi_var,7889,100.0
+BCRP,tasa_referencia,7889,100.0
+Yahoo Finance (PEN=X),tipo_cambio,7889,100.0
+Yahoo Finance (PEN=X),var_tipo_cambio,7889,100.0

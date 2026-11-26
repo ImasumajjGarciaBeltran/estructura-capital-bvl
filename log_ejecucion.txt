@@ -284,3 +284,23 @@
 2026-11-26 00:51:19 · 02_scraping_web · BCRP PD04722MM · 278 filas leídas de la tabla HTML
 2026-11-26 00:51:24 · 02_scraping_web · Archivo crudo único · 360,205 filas · fuentes: SMV, BCRP, Yahoo Finance
 2026-11-26 00:51:24 · 02_scraping_web · Fin de 02_scraping_web.py
+2026-11-26 12:25:07 · 03_limpieza_datos · Inicio de 03_limpieza_datos.py
+2026-11-26 12:25:10 · 03_limpieza_datos · SMV leído: 136336 filas, 229 emisoras
+2026-11-26 12:25:14 · 03_limpieza_datos · tabla guardada: salidas/tabla_correccion_moneda.csv
+2026-11-26 12:25:14 · 03_limpieza_datos · Etiquetas de moneda corregidas: 2 emisora-trimestres
+2026-11-26 12:25:15 · 03_limpieza_datos · SMV en formato ancho: 8521 emisora-trimestres
+2026-11-26 12:25:15 · 03_limpieza_datos · tabla guardada: salidas/tabla_filtro_muestra.csv
+2026-11-26 12:25:15 · 03_limpieza_datos · tabla guardada: salidas/tabla_emisoras_excluidas.csv
+2026-11-26 12:25:15 · 03_limpieza_datos · Muestra final: 7889 emisora-trimestres de 209 emisoras
+2026-11-26 12:25:15 · 03_limpieza_datos · Tipo de cambio PEN=X: 60 trimestres (2.485 a 4.125 soles por dólar)
+2026-11-26 12:25:15 · 03_limpieza_datos · Variables contables calculadas para 7889 emisora-trimestres
+2026-11-26 12:25:17 · 03_limpieza_datos · Yahoo Finance: 20 acciones, 1188 acción-trimestres
+2026-11-26 12:25:17 · 03_limpieza_datos · BCRP: PBI en 187 trimestres, tasa de referencia en 94 trimestres
+2026-11-26 12:25:17 · 03_limpieza_datos · tabla guardada: salidas/tabla_winsorizado.csv
+2026-11-26 12:25:18 · 03_limpieza_datos · datos_procesados/datos_procesados_2024200500F.csv: 7889 filas, 209 emisoras, 35 columnas · SHA-256 3d06fd24ddc910bd7810abd7e058f50843c439dba3fc13e2d8f42b0faa369c0a
+2026-11-26 12:25:18 · 03_limpieza_datos · tabla guardada: salidas/tabla_cobertura_fuentes.csv
+2026-11-26 12:25:18 · 03_limpieza_datos · tabla guardada: salidas/tabla_observaciones_por_anio.csv
+2026-11-26 12:25:18 · 03_limpieza_datos · tabla guardada: salidas/tabla_observaciones_por_sector.csv
+2026-11-26 12:25:19 · 03_limpieza_datos · diccionario_variables.xlsx creado
+2026-11-26 12:25:19 · 03_limpieza_datos · README.md: hash SHA-256 actualizado
+2026-11-26 12:25:19 · 03_limpieza_datos · Fin de 03_limpieza_datos.py

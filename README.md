@@ -28,4 +28,4 @@
 Ver `requirements.txt`.
 
 ## Hash SHA-256 de datos_procesados_2024200500F.csv
-_Se completa en la Fase 2._
+`3d06fd24ddc910bd7810abd7e058f50843c439dba3fc13e2d8f42b0faa369c0a`  (7889 observaciones emisora-trimestre, 209 emisoras; generado el 2026-11-26 12:25)
