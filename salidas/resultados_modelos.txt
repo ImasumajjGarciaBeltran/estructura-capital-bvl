@@ -1,0 +1,299 @@
+==========================================================================================
+MODELO 1 · MCO agrupado
+==========================================================================================
+                          PooledOLS Estimation Summary                          
+================================================================================
+Dep. Variable:         apalancamiento   R-squared:                        0.1569
+Estimator:                  PooledOLS   R-squared (Between):              0.1894
+No. Observations:                6077   R-squared (Within):              -0.0116
+Date:                Fri, Nov 27 2026   R-squared (Overall):              0.1569
+Time:                        21:32:26   Log-likelihood                    1406.0
+Cov. Estimator:        Driscoll-Kraay                                           
+                                        F-statistic:                      125.49
+Entities:                         157   P-value                           0.0000
+Avg Obs:                       38.707   Distribution:                  F(9,6067)
+Min Obs:                       4.0000                                           
+Max Obs:                       54.000   F-statistic (robust):             158.89
+                                        P-value                           0.0000
+Time periods:                      54   Distribution:                  F(9,6067)
+Avg Obs:                       112.54                                           
+Min Obs:                       91.000                                           
+Max Obs:                       131.00                                           
+                                                                                
+                                   Parameter Estimates                                   
+=========================================================================================
+                       Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-----------------------------------------------------------------------------------------
+const                     0.1496     0.0277     5.4009     0.0000      0.0953      0.2039
+tamano_l1                 0.0236     0.0015     15.819     0.0000      0.0207      0.0265
+tangibilidad_l1          -0.0019     0.0125    -0.1504     0.8805     -0.0264      0.0226
+rentabilidad_l1          -0.4367     0.0837    -5.2200     0.0000     -0.6007     -0.2727
+crecimiento_ventas_l1     0.0176     0.0074     2.3964     0.0166      0.0032      0.0321
+liquidez_corriente_l1    -0.0134     0.0015    -8.6911     0.0000     -0.0165     -0.0104
+riesgo_negocio_l1         1.3017     0.2714     4.7956     0.0000      0.7696      1.8338
+pbi_var               -3.029e-05     0.0003    -0.0874     0.9303     -0.0007      0.0006
+tasa_referencia           0.0005     0.0021     0.2435     0.8076     -0.0036      0.0046
+var_tipo_cambio       -6.189e-05     0.0006    -0.1014     0.9193     -0.0013      0.0011
+=========================================================================================
+
+==========================================================================================
+MODELO 1 · Efectos fijos
+==========================================================================================
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:         apalancamiento   R-squared:                        0.1141
+Estimator:                   PanelOLS   R-squared (Between):             -0.1056
+No. Observations:                6077   R-squared (Within):               0.1141
+Date:                Fri, Nov 27 2026   R-squared (Overall):             -0.0519
+Time:                        21:32:27   Log-likelihood                    5671.1
+Cov. Estimator:        Driscoll-Kraay                                           
+                                        F-statistic:                      84.580
+Entities:                         157   P-value                           0.0000
+Avg Obs:                       38.707   Distribution:                  F(9,5911)
+Min Obs:                       4.0000                                           
+Max Obs:                       54.000   F-statistic (robust):             99.382
+                                        P-value                           0.0000
+Time periods:                      54   Distribution:                  F(9,5911)
+Avg Obs:                       112.54                                           
+Min Obs:                       91.000                                           
+Max Obs:                       131.00                                           
+                                                                                
+                                   Parameter Estimates                                   
+=========================================================================================
+                       Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-----------------------------------------------------------------------------------------
+const                    -0.5405     0.0607    -8.9096     0.0000     -0.6595     -0.4216
+tamano_l1                 0.0684     0.0046     15.009     0.0000      0.0595      0.0773
+tangibilidad_l1           0.1328     0.0286     4.6427     0.0000      0.0767      0.1889
+rentabilidad_l1          -0.3487     0.0408    -8.5518     0.0000     -0.4286     -0.2687
+crecimiento_ventas_l1     0.0110     0.0033     3.3250     0.0009      0.0045      0.0175
+liquidez_corriente_l1    -0.0037     0.0009    -4.3610     0.0000     -0.0054     -0.0021
+riesgo_negocio_l1         0.5760     0.2624     2.1954     0.0282      0.0617      1.0904
+pbi_var                5.946e-05     0.0003     0.1758     0.8604     -0.0006      0.0007
+tasa_referencia           0.0016     0.0022     0.7031     0.4820     -0.0028      0.0060
+var_tipo_cambio          -0.0001     0.0006    -0.2364     0.8131     -0.0013      0.0010
+=========================================================================================
+
+F-test for Poolability: 116.33
+P-value: 0.0000
+Distribution: F(156,5911)
+
+Included effects: Entity
+
+==========================================================================================
+MODELO 1 · Efectos aleatorios
+==========================================================================================
+                        RandomEffects Estimation Summary                        
+================================================================================
+Dep. Variable:         apalancamiento   R-squared:                        0.1207
+Estimator:              RandomEffects   R-squared (Between):             -0.0133
+No. Observations:                6077   R-squared (Within):               0.1131
+Date:                Fri, Nov 27 2026   R-squared (Overall):              0.0067
+Time:                        21:32:27   Log-likelihood                    5567.0
+Cov. Estimator:        Driscoll-Kraay                                           
+                                        F-statistic:                      82.858
+Entities:                         157   P-value                           0.0000
+Avg Obs:                       38.707   Distribution:                  F(9,6067)
+Min Obs:                       4.0000                                           
+Max Obs:                       54.000   F-statistic (robust):             38.101
+                                        P-value                           0.0000
+Time periods:                      54   Distribution:                  F(9,6067)
+Avg Obs:                       112.54                                           
+Min Obs:                       91.000                                           
+Max Obs:                       131.00                                           
+                                                                                
+                                   Parameter Estimates                                   
+=========================================================================================
+                       Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-----------------------------------------------------------------------------------------
+const                    -0.3498     0.1196    -2.9242     0.0035     -0.5843     -0.1153
+tamano_l1                 0.0563     0.0072     7.8316     0.0000      0.0422      0.0704
+tangibilidad_l1           0.1188     0.0315     3.7727     0.0002      0.0571      0.1806
+rentabilidad_l1          -0.3554     0.0463    -7.6835     0.0000     -0.4460     -0.2647
+crecimiento_ventas_l1     0.0115     0.0035     3.2889     0.0010      0.0047      0.0184
+liquidez_corriente_l1    -0.0039     0.0008    -4.8147     0.0000     -0.0054     -0.0023
+riesgo_negocio_l1         0.6039     0.2481     2.4344     0.0149      0.1176      1.0902
+pbi_var                3.715e-05     0.0004     0.1048     0.9165     -0.0007      0.0007
+tasa_referencia           0.0016     0.0022     0.7240     0.4691     -0.0028      0.0060
+var_tipo_cambio          -0.0002     0.0006    -0.3401     0.7338     -0.0014      0.0010
+=========================================================================================
+
+==========================================================================================
+MODELO 2 · Deuda financiera
+==========================================================================================
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:       deuda_financiera   R-squared:                        0.0488
+Estimator:                   PanelOLS   R-squared (Between):              0.0532
+No. Observations:                6077   R-squared (Within):               0.0488
+Date:                Fri, Nov 27 2026   R-squared (Overall):              0.0560
+Time:                        21:32:33   Log-likelihood                    6996.4
+Cov. Estimator:        Driscoll-Kraay                                           
+                                        F-statistic:                      33.701
+Entities:                         157   P-value                           0.0000
+Avg Obs:                       38.707   Distribution:                  F(9,5911)
+Min Obs:                       4.0000                                           
+Max Obs:                       54.000   F-statistic (robust):             52.252
+                                        P-value                           0.0000
+Time periods:                      54   Distribution:                  F(9,5911)
+Avg Obs:                       112.54                                           
+Min Obs:                       91.000                                           
+Max Obs:                       131.00                                           
+                                                                                
+                                   Parameter Estimates                                   
+=========================================================================================
+                       Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-----------------------------------------------------------------------------------------
+const                    -0.2713     0.0733    -3.7033     0.0002     -0.4149     -0.1277
+tamano_l1                 0.0317     0.0055     5.7922     0.0000      0.0210      0.0425
+tangibilidad_l1           0.1010     0.0201     5.0194     0.0000      0.0616      0.1405
+rentabilidad_l1          -0.1186     0.0210    -5.6405     0.0000     -0.1598     -0.0774
+crecimiento_ventas_l1     0.0041     0.0024     1.7102     0.0873     -0.0006      0.0089
+liquidez_corriente_l1    -0.0011     0.0003    -3.6555     0.0003     -0.0017     -0.0005
+riesgo_negocio_l1        -0.4566     0.1197    -3.8135     0.0001     -0.6912     -0.2219
+pbi_var               -5.263e-05  9.982e-05    -0.5273     0.5980     -0.0002      0.0001
+tasa_referencia          -0.0001     0.0013    -0.1115     0.9112     -0.0027      0.0024
+var_tipo_cambio           0.0012     0.0006     2.0134     0.0441   3.103e-05      0.0023
+=========================================================================================
+
+F-test for Poolability: 137.00
+P-value: 0.0000
+Distribution: F(156,5911)
+
+Included effects: Entity
+
+==========================================================================================
+MODELO 3 · Riesgo de mercado (Yahoo)
+==========================================================================================
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:         apalancamiento   R-squared:                        0.1752
+Estimator:                   PanelOLS   R-squared (Between):             -0.3378
+No. Observations:                1052   R-squared (Within):               0.1752
+Date:                Fri, Nov 27 2026   R-squared (Overall):             -0.1107
+Time:                        21:32:33   Log-likelihood                    927.81
+Cov. Estimator:        Driscoll-Kraay                                           
+                                        F-statistic:                      24.137
+Entities:                          20   P-value                           0.0000
+Avg Obs:                       52.600   Distribution:                  F(9,1023)
+Min Obs:                       18.000                                           
+Max Obs:                       59.000   F-statistic (robust):             61.420
+                                        P-value                           0.0000
+Time periods:                      59   Distribution:                  F(9,1023)
+Avg Obs:                       17.831                                           
+Min Obs:                       15.000                                           
+Max Obs:                       20.000                                           
+                                                                                
+                                   Parameter Estimates                                   
+=========================================================================================
+                       Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-----------------------------------------------------------------------------------------
+const                    -0.6606     0.3214    -2.0553     0.0401     -1.2914     -0.0299
+tamano_l1                 0.0661     0.0193     3.4156     0.0007      0.0281      0.1040
+tangibilidad_l1           0.2727     0.0912     2.9887     0.0029      0.0937      0.4518
+rentabilidad_l1          -0.3020     0.1422    -2.1229     0.0340     -0.5811     -0.0228
+crecimiento_ventas_l1     0.0308     0.0065     4.7113     0.0000      0.0180      0.0437
+liquidez_corriente_l1    -0.0035     0.0017    -2.0288     0.0427     -0.0070     -0.0001
+volatilidad_l1            0.0315     0.0242     1.2992     0.1942     -0.0161      0.0791
+pbi_var                  -0.0002     0.0006    -0.3680     0.7130     -0.0013      0.0009
+tasa_referencia          -0.0019     0.0024    -0.7912     0.4290     -0.0065      0.0028
+var_tipo_cambio       -8.977e-05     0.0009    -0.0994     0.9209     -0.0019      0.0017
+=========================================================================================
+
+F-test for Poolability: 71.421
+P-value: 0.0000
+Distribution: F(19,1023)
+
+Included effects: Entity
+
+==========================================================================================
+ANEXO · Modelo 1 sin holdings
+==========================================================================================
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:         apalancamiento   R-squared:                        0.1224
+Estimator:                   PanelOLS   R-squared (Between):              0.0077
+No. Observations:                5712   R-squared (Within):               0.1224
+Date:                Fri, Nov 27 2026   R-squared (Overall):              0.0277
+Time:                        21:32:34   Log-likelihood                    5498.7
+Cov. Estimator:        Driscoll-Kraay                                           
+                                        F-statistic:                      86.116
+Entities:                         144   P-value                           0.0000
+Avg Obs:                       39.667   Distribution:                  F(9,5559)
+Min Obs:                       4.0000                                           
+Max Obs:                       54.000   F-statistic (robust):             44.127
+                                        P-value                           0.0000
+Time periods:                      54   Distribution:                  F(9,5559)
+Avg Obs:                       105.78                                           
+Min Obs:                       86.000                                           
+Max Obs:                       124.00                                           
+                                                                                
+                                   Parameter Estimates                                   
+=========================================================================================
+                       Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-----------------------------------------------------------------------------------------
+const                    -0.3777     0.0900    -4.1955     0.0000     -0.5542     -0.2012
+tamano_l1                 0.0583     0.0066     8.7825     0.0000      0.0453      0.0714
+tangibilidad_l1           0.0991     0.0260     3.8150     0.0001      0.0482      0.1500
+rentabilidad_l1          -0.3364     0.0391    -8.6117     0.0000     -0.4130     -0.2599
+crecimiento_ventas_l1     0.0077     0.0036     2.1401     0.0324      0.0006      0.0147
+liquidez_corriente_l1    -0.0058     0.0013    -4.5008     0.0000     -0.0084     -0.0033
+riesgo_negocio_l1         0.8325     0.2153     3.8661     0.0001      0.4104      1.2546
+pbi_var               -1.236e-05     0.0004    -0.0285     0.9773     -0.0009      0.0008
+tasa_referencia           0.0015     0.0028     0.5464     0.5848     -0.0039      0.0070
+var_tipo_cambio          -0.0002     0.0007    -0.2334     0.8155     -0.0016      0.0013
+=========================================================================================
+
+F-test for Poolability: 110.19
+P-value: 0.0000
+Distribution: F(143,5559)
+
+Included effects: Entity
+
+==========================================================================================
+ANEXO · Modelo 1 con panel balanceado (60 trimestres)
+==========================================================================================
+                          PanelOLS Estimation Summary                           
+================================================================================
+Dep. Variable:         apalancamiento   R-squared:                        0.1172
+Estimator:                   PanelOLS   R-squared (Between):             -0.0294
+No. Observations:                4191   R-squared (Within):               0.1172
+Date:                Fri, Nov 27 2026   R-squared (Overall):             -0.0396
+Time:                        21:32:34   Log-likelihood                    4008.6
+Cov. Estimator:        Driscoll-Kraay                                           
+                                        F-statistic:                      60.524
+Entities:                          80   P-value                           0.0000
+Avg Obs:                       52.388   Distribution:                  F(9,4102)
+Min Obs:                       12.000                                           
+Max Obs:                       54.000   F-statistic (robust):             89.115
+                                        P-value                           0.0000
+Time periods:                      54   Distribution:                  F(9,4102)
+Avg Obs:                       77.611                                           
+Min Obs:                       75.000                                           
+Max Obs:                       79.000                                           
+                                                                                
+                                   Parameter Estimates                                   
+=========================================================================================
+                       Parameter  Std. Err.     T-stat    P-value    Lower CI    Upper CI
+-----------------------------------------------------------------------------------------
+const                    -0.6247     0.1514    -4.1266     0.0000     -0.9215     -0.3279
+tamano_l1                 0.0710     0.0107     6.6479     0.0000      0.0501      0.0919
+tangibilidad_l1           0.1292     0.0309     4.1840     0.0000      0.0687      0.1898
+rentabilidad_l1          -0.3279     0.0414    -7.9201     0.0000     -0.4090     -0.2467
+crecimiento_ventas_l1     0.0120     0.0031     3.8551     0.0001      0.0059      0.0182
+liquidez_corriente_l1    -0.0036     0.0012    -2.9239     0.0035     -0.0061     -0.0012
+riesgo_negocio_l1         0.7847     0.2642     2.9703     0.0030      0.2668      1.3026
+pbi_var                   0.0001     0.0002     0.4486     0.6537     -0.0003      0.0005
+tasa_referencia           0.0021     0.0014     1.5134     0.1303     -0.0006      0.0049
+var_tipo_cambio       -7.126e-05     0.0006    -0.1233     0.9019     -0.0012      0.0011
+=========================================================================================
+
+F-test for Poolability: 124.75
+P-value: 0.0000
+Distribution: F(79,4102)
+
+Included effects: Entity
+
+Hausman χ²(9) = 1044.2130, p = 0.000000 → Efectos fijos
+F de efectos fijos = 116.3307, p = 0.000000
+Correlación riesgo contable - volatilidad (20 emisoras): r = 0.6365, p = 0.002550

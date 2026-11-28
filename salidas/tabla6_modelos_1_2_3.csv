@@ -1,0 +1,28 @@
+variable,(1) Principal: apalancamiento,(2) Deuda financiera,(3) Riesgo de mercado (Yahoo)
+Tamaño (t−1),0.0684***,0.0317***,0.0661***
+,(0.0046),(0.0055),(0.0193)
+Tangibilidad (t−1),0.1328***,0.1010***,0.2727***
+,(0.0286),(0.0201),(0.0912)
+Rentabilidad (t−1),-0.3487***,-0.1186***,-0.3020**
+,(0.0408),(0.0210),(0.1422)
+Crecimiento (t−1),0.0110***,0.0041*,0.0308***
+,(0.0033),(0.0024),(0.0065)
+Liquidez (t−1),-0.0037***,-0.0011***,-0.0035**
+,(0.0009),(0.0003),(0.0017)
+Riesgo del negocio (t−1),0.5760**,-0.4566***,
+,(0.2624),(0.1197),
+Volatilidad de la acción (t−1),,,0.0315
+,,,(0.0242)
+Crecimiento del PBI,0.0001,-0.0001,-0.0002
+,(0.0003),(0.0001),(0.0006)
+Tasa de referencia,0.0016,-0.0001,-0.0019
+,(0.0022),(0.0013),(0.0024)
+Variación del tipo de cambio,-0.0001,0.0012**,-0.0001
+,(0.0006),(0.0006),(0.0009)
+Constante,-0.5405***,-0.2713***,-0.6606**
+,(0.0607),(0.0733),(0.3214)
+Observaciones,6 077,6 077,1 052
+Emisoras,157,157,20
+R² dentro (within),0.114,0.049,0.175
+R² total (overall),-0.052,0.056,-0.111
+Estimador,Efectos fijos,Efectos fijos,Efectos fijos

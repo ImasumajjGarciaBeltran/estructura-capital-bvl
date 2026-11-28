@@ -304,3 +304,59 @@
 2026-11-26 12:25:19 · 03_limpieza_datos · diccionario_variables.xlsx creado
 2026-11-26 12:25:19 · 03_limpieza_datos · README.md: hash SHA-256 actualizado
 2026-11-26 12:25:19 · 03_limpieza_datos · Fin de 03_limpieza_datos.py
+2026-11-27 21:05:47 · 04_analisis · Inicio de 04_analisis.py
+2026-11-27 21:05:48 · 04_analisis · datos_procesados/datos_procesados_2024200500F.csv · SHA-256 3d06fd24ddc910bd7810abd7e058f50843c439dba3fc13e2d8f42b0faa369c0a · coincide con README: sí
+2026-11-27 21:05:49 · 04_analisis · Panel: 7889 observaciones, 209 emisoras
+2026-11-27 21:05:49 · 04_analisis · tabla guardada: salidas/tabla0a_faltantes.csv
+2026-11-27 21:05:49 · 04_analisis · tabla guardada: salidas/tabla0b_balance_panel.csv
+2026-11-27 21:05:49 · 04_analisis · tabla guardada: salidas/tabla1_descriptivos.csv
+2026-11-27 21:05:50 · 04_analisis · Modelo 1: 6077 obs · Hausman χ²(9) = 1044.21, p = 0.0000 → Efectos fijos
+2026-11-27 21:05:50 · 04_analisis · tabla guardada: salidas/tabla5_modelo1_principal.csv
+2026-11-27 21:05:50 · 04_analisis · tabla guardada: salidas/tabla5b_modelo1_coeficientes.csv
+2026-11-27 21:05:50 · 04_analisis · tabla guardada: salidas/tabla2_correlaciones.csv
+2026-11-27 21:05:50 · 04_analisis · tabla guardada: salidas/tabla3_vif.csv
+2026-11-27 21:05:51 · 04_analisis · Raíz unitaria de apalancamiento: 1 emisoras omitidas por series casi constantes
+2026-11-27 21:05:52 · 04_analisis · Raíz unitaria de deuda_financiera: 13 emisoras omitidas por series casi constantes
+2026-11-27 21:05:54 · 04_analisis · Raíz unitaria de tangibilidad: 9 emisoras omitidas por series casi constantes
+2026-11-27 21:05:56 · 04_analisis · tabla guardada: salidas/tabla4_raiz_unitaria.csv
+2026-11-27 21:05:57 · 04_analisis · Modelo 2: 6077 obs · Modelo 3: 1052 obs, 20 emisoras
+2026-11-27 21:05:57 · 04_analisis · tabla guardada: salidas/tabla6_modelos_1_2_3.csv
+2026-11-27 21:05:57 · 04_analisis · tabla guardada: salidas/tabla6b_modelos_coeficientes.csv
+2026-11-27 21:05:57 · 04_analisis · tabla guardada: salidas/anexo_robustez_holdings_y_balanceado.csv
+2026-11-27 21:05:57 · 04_analisis · Anexo: sin holdings 5712 obs · panel balanceado 4191 obs, 82 emisoras
+2026-11-27 21:05:57 · 04_analisis · tabla guardada: salidas/tabla7_contraste_hipotesis.csv
+2026-11-27 21:05:58 · 04_analisis · figura guardada: salidas/figura1_evolucion_apalancamiento.png
+2026-11-27 21:05:58 · 04_analisis · figura guardada: salidas/figura2_apalancamiento_por_sector.png
+2026-11-27 21:05:59 · 04_analisis · figura guardada: salidas/figura3_correlaciones.png
+2026-11-27 21:06:00 · 04_analisis · figura guardada: salidas/figura4_coeficientes_modelo1.png
+2026-11-27 21:06:00 · 04_analisis · figura guardada: salidas/figura5_riesgo_contable_vs_mercado.png
+2026-11-27 21:06:00 · 04_analisis · resultados completos guardados: salidas/resultados_modelos.txt
+2026-11-27 21:06:00 · 04_analisis · Fin de 04_analisis.py
+2026-11-27 21:32:25 · 04_analisis · Inicio de 04_analisis.py
+2026-11-27 21:32:25 · 04_analisis · datos_procesados/datos_procesados_2024200500F.csv · SHA-256 3d06fd24ddc910bd7810abd7e058f50843c439dba3fc13e2d8f42b0faa369c0a · coincide con README: sí
+2026-11-27 21:32:25 · 04_analisis · Panel: 7889 observaciones, 209 emisoras
+2026-11-27 21:32:26 · 04_analisis · tabla guardada: salidas/tabla0a_faltantes.csv
+2026-11-27 21:32:26 · 04_analisis · tabla guardada: salidas/tabla0b_balance_panel.csv
+2026-11-27 21:32:26 · 04_analisis · tabla guardada: salidas/tabla1_descriptivos.csv
+2026-11-27 21:32:27 · 04_analisis · Modelo 1: 6077 obs · Hausman χ²(9) = 1044.21, p = 0.0000 → Efectos fijos
+2026-11-27 21:32:27 · 04_analisis · tabla guardada: salidas/tabla5_modelo1_principal.csv
+2026-11-27 21:32:28 · 04_analisis · tabla guardada: salidas/tabla5b_modelo1_coeficientes.csv
+2026-11-27 21:32:28 · 04_analisis · tabla guardada: salidas/tabla2_correlaciones.csv
+2026-11-27 21:32:28 · 04_analisis · tabla guardada: salidas/tabla3_vif.csv
+2026-11-27 21:32:29 · 04_analisis · Raíz unitaria de apalancamiento: 1 emisoras omitidas por series casi constantes
+2026-11-27 21:32:29 · 04_analisis · Raíz unitaria de deuda_financiera: 13 emisoras omitidas por series casi constantes
+2026-11-27 21:32:31 · 04_analisis · Raíz unitaria de tangibilidad: 9 emisoras omitidas por series casi constantes
+2026-11-27 21:32:33 · 04_analisis · tabla guardada: salidas/tabla4_raiz_unitaria.csv
+2026-11-27 21:32:33 · 04_analisis · Modelo 2: 6077 obs · Modelo 3: 1052 obs, 20 emisoras
+2026-11-27 21:32:34 · 04_analisis · tabla guardada: salidas/tabla6_modelos_1_2_3.csv
+2026-11-27 21:32:34 · 04_analisis · tabla guardada: salidas/tabla6b_modelos_coeficientes.csv
+2026-11-27 21:32:35 · 04_analisis · tabla guardada: salidas/anexo_robustez_holdings_y_balanceado.csv
+2026-11-27 21:32:35 · 04_analisis · Anexo: sin holdings 5712 obs · panel balanceado 4191 obs, 82 emisoras
+2026-11-27 21:32:35 · 04_analisis · tabla guardada: salidas/tabla7_contraste_hipotesis.csv
+2026-11-27 21:32:36 · 04_analisis · figura guardada: salidas/figura1_evolucion_apalancamiento.png
+2026-11-27 21:32:37 · 04_analisis · figura guardada: salidas/figura2_apalancamiento_por_sector.png
+2026-11-27 21:32:38 · 04_analisis · figura guardada: salidas/figura4_coeficientes_modelos_1_y_2.png
+2026-11-27 21:32:40 · 04_analisis · figura guardada: salidas/figura3_relacion_y_con_cada_x.png
+2026-11-27 21:32:40 · 04_analisis · figura guardada: salidas/figura5_riesgo_contable_vs_mercado.png
+2026-11-27 21:32:40 · 04_analisis · resultados completos guardados: salidas/resultados_modelos.txt
+2026-11-27 21:32:40 · 04_analisis · Fin de 04_analisis.py

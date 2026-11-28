@@ -1,0 +1,12 @@
+variable,prueba,emisoras_o_series,estadistico,p_valor,z_choi,p_valor_choi,conclusion_5pct
+Apalancamiento,Fisher-ADF (panel),150,671.41,0.0,-6.388,0.0,estacionaria
+Deuda financiera,Fisher-ADF (panel),138,800.33,0.0,-9.21,0.0,estacionaria
+Tamaño,Fisher-ADF (panel),151,560.07,0.0,-3.578,0.0002,estacionaria
+Tangibilidad,Fisher-ADF (panel),142,727.56,0.0,-8.221,0.0,estacionaria
+Rentabilidad,Fisher-ADF (panel),151,622.44,0.0,-9.796,0.0,estacionaria
+Crecimiento,Fisher-ADF (panel),132,1821.9,0.0,-30.586,0.0,estacionaria
+Liquidez,Fisher-ADF (panel),151,937.94,0.0,-14.755,0.0,estacionaria
+Riesgo del negocio,Fisher-ADF (panel),135,537.27,0.0,-8.987,0.0,estacionaria
+Crecimiento del PBI,ADF (serie de tiempo),1,-5.478,0.0,,,estacionaria
+Tasa de referencia,ADF (serie de tiempo),1,-3.049,0.0306,,,estacionaria
+Variación del tipo de cambio,ADF (serie de tiempo),1,-6.597,0.0,,,estacionaria

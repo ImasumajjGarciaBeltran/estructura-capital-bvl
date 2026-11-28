@@ -1,0 +1,10 @@
+variable,observaciones,faltantes,porcentaje_faltante,motivo
+Apalancamiento,7889,0,0.0,—
+Tamaño,7889,0,0.0,—
+Tangibilidad,7889,0,0.0,—
+Rentabilidad,7869,20,0.3,El estado de resultados del trimestre no fue reportado o falta el acumulado del año anterior
+Crecimiento,7125,764,9.7,"Sin ventas en el mismo trimestre del año anterior (empresa nueva, holding o sin ingresos)"
+Liquidez,7882,7,0.1,Pasivo corriente igual a cero o no reportado
+Riesgo del negocio,6881,1008,12.8,La emisora aún no acumula 6 trimestres de historia
+Tasa impositiva efectiva,6289,1600,20.3,Utilidad antes de impuestos ≤ 0: la tasa efectiva no está definida
+Volatilidad de la acción,1083,6806,86.3,Solo existe para las 20 emisoras con acciones en Yahoo Finance
